@@ -16,7 +16,7 @@ export async function POST(request: Request) {
   );
 }
 
-export async function getGroqChatCompletion(prompt: string) {
+async function getGroqChatCompletion(prompt: string) {
   return groq.chat.completions.create({
     messages: [
       {

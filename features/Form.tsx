@@ -33,7 +33,7 @@ export default function Form() {
           name='prompt'
           type='text'
           placeholder='꺼드럭 거려보소'
-          className='w-full px-4 py-3 text-2xl border-2 border-black rounded-xl focus:outline-none focus:ring-2 focus:ring-black transition-all bg-white'
+          className='w-full px-4 py-3 text-2xl border border-black rounded-xl focus:outline-none focus:ring-2 focus:ring-black transition-all bg-white'
           required
         />
         <button
